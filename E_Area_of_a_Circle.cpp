@@ -1,18 +1,16 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <iomanip>
-#include <ios>
 using namespace std;
 
 int main()
 {
+    double pi = 3.141592653;
+    double radius;
+    cin >> radius;
+    double area = pi * radius * radius;
 
-    double r = 3.141592653;
-    double x;
-    cin >> x;
-    double result = r * (x * 2);
-
-    cout << fixed << setprecision(9) << endl;
-    cout << result<< endl;
+    cout << fixed << setprecision(9);
+    cout << area << endl;
 
     return 0;
 }
